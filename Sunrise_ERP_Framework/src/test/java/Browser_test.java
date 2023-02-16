@@ -2,10 +2,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 
-public class Browser_test {
-
+public class Browser_test 
+{
+	@Test
 	public static void main(String[] args) {
 		
 		String projectPath = System.getProperty("user.dir");
