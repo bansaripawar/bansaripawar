@@ -8,34 +8,30 @@ import org.testng.annotations.Test;
 import Base.Base;
 import LoginObjects.loginpage;
 
-public class ShapeTC extends Base
+public class PointerTC extends Base
 {
 	loginpage lp;//Login Object
-	Shape sp;//Shape Object
+	Pointer pt;//Pointer Object
 	
-	public ShapeTC() throws IOException 
+	public PointerTC() throws IOException 
 	{
 		super();
 		
 	}
 	@BeforeMethod
-	public void browsersetup() throws InterruptedException, IOException
+	public void browsersetup() throws IOException, InterruptedException
 	{
 		initialization();
-		lp = new loginpage();
-		sp = new Shape();
-		Thread.sleep(5000);
-		
+		lp= new loginpage();
+		pt= new Pointer();
+		Thread.sleep(3000);
 	}
 	
-	@Test
-	public void Shape() throws InterruptedException 
+  @Test
+	public void Pointer() throws InterruptedException 
 	{
-	
 		lp.ValidateLogin();
 		Thread.sleep(2000);
-		sp.ValidateShape();
-		
+		pt.ValidatePointer();
 	}
-	  
 }
