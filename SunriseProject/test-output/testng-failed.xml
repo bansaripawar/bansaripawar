@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ParametersMasters.PointerTC">
+      <class name="ParametersMasters.PolishTC">
         <methods>
           <include name="browsersetup"/>
-          <include name="Pointer"/>
+          <include name="ValidatePolish"/>
         </methods>
-      </class> <!-- ParametersMasters.PointerTC -->
+      </class> <!-- ParametersMasters.PolishTC -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

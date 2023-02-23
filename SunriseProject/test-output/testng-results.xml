@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-16T18:10:22 IST" name="Default suite" finished-at="2023-02-16T18:10:39 IST" duration-ms="16686">
+  <suite started-at="2023-02-23T14:33:53 IST" name="Default suite" finished-at="2023-02-23T14:34:10 IST" duration-ms="17010">
     <groups>
     </groups>
-    <test started-at="2023-02-16T18:10:22 IST" name="Default test" finished-at="2023-02-16T18:10:39 IST" duration-ms="16686">
-      <class name="ParametersMasters.ColorTC">
-        <test-method is-config="true" signature="browsersetup()[pri:0, instance:ParametersMasters.ColorTC@242b836]" started-at="2023-02-16T18:10:22 IST" name="browsersetup" finished-at="2023-02-16T18:10:29 IST" duration-ms="6803" status="PASS">
+    <test started-at="2023-02-23T14:33:53 IST" name="Default test" finished-at="2023-02-23T14:34:10 IST" duration-ms="17010">
+      <class name="ParametersMasters.GirdleTC">
+        <test-method is-config="true" signature="browsersetup()[pri:0, instance:ParametersMasters.GirdleTC@242b836]" started-at="2023-02-23T14:33:53 IST" name="browsersetup" finished-at="2023-02-23T14:34:00 IST" duration-ms="7144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browsersetup -->
-        <test-method signature="ValidateColor()[pri:0, instance:ParametersMasters.ColorTC@242b836]" started-at="2023-02-16T18:10:29 IST" name="ValidateColor" finished-at="2023-02-16T18:10:39 IST" duration-ms="9841" status="PASS">
+        <test-method signature="ValidateGirdle()[pri:0, instance:ParametersMasters.GirdleTC@242b836]" started-at="2023-02-23T14:34:00 IST" name="ValidateGirdle" finished-at="2023-02-23T14:34:10 IST" duration-ms="9820" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidateColor -->
-      </class> <!-- ParametersMasters.ColorTC -->
+        </test-method> <!-- ValidateGirdle -->
+      </class> <!-- ParametersMasters.GirdleTC -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
